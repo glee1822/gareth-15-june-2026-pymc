@@ -43,20 +43,21 @@ print("hello from day2")
 
 ########################################################################
 # Additional exercises:
-for i in range(10,0,-1):
-    print(i)
-print("happy new year")
+# for i in range(10,0,-1):
+#     print(i)
+# print("happy new year")
 
-for i in range(2):
-    print("baby shark")
-    for i in range(5):
-        print("doo")
-x = 0
-for i in range(3, 37,1):
-    if i%3 == 0:
-        print(i)
-        x = x+1
-print(x)
+# for i in range(2):
+#     print("baby shark")
+#     for i in range(5):
+#         print("doo")
 
-for i in range(1, 100, 2):
-    print(i)
+# x = 0
+# for i in range(3, 37,1):
+#     if i%3 == 0:
+#         print(i)
+#         x = x+1
+# print(x)
+
+# for i in range(1, 100, 2):
+#     print(i)
