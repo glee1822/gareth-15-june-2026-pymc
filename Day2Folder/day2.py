@@ -13,7 +13,8 @@ for i in range(100):
 name = "gareth"
 for i in (name):
     print("give me a " + i)
-    
+    print("whos better than you")
+    print(name)
 
 
 ########################################################################
