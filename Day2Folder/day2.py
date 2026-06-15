@@ -10,6 +10,7 @@ for i in range(100):
 
 ########################################################################
 # Task 2:\
+name = "gareth"
 for i in ("gareth"):
     print("give me a " + i)
 
