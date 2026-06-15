@@ -55,4 +55,5 @@ x = 0
 for i in range(3, 37,1):
     if i%3 == 0:
         print(i)
-        
+        x = x+1
+print(x)
