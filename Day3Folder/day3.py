@@ -4,10 +4,10 @@ print("hello from day3")
 
 ########################################################################
 # Task 1:
-title = input("title")
-name = input("name")
-command = input("command")
-print(title + " " + name + " commands you to " + command)
+# title = input("title")
+# name = input("name")
+# command = input("command")
+# print(title + " " + name + " commands you to " + command)
 
 
 
