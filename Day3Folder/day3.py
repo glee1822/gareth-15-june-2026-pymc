@@ -4,8 +4,8 @@ print("hello from day3")
 
 ########################################################################
 # Task 1:
-title = "supreme overlord"
-name = "gareth"
+title = input("name")
+name = input
 command = "die"
 print(title + " " + name + " commands you to " + command)
 
