@@ -4,17 +4,17 @@ print("hello from day2")
 
 ########################################################################
 # Task 1:
-for i in range(100):
-    print("I will not sling mud at my friends")
+# for i in range(100):
+#     print("I will not sling mud at my friends")
 
 
 ########################################################################
 # Task 2:\
-name = "gareth"
-for i in (name):
-    print("give me a " + i)
-print("whos better than you")
-print(name)
+# name = "gareth"
+# for i in (name):
+#     print("give me a " + i)
+# print("whos better than you")
+# print(name)
 
 
 ########################################################################
@@ -26,8 +26,8 @@ print(name)
 
 ########################################################################
 # Task 4:
-for i in range(1,11):
-    print(i)
+# for i in range(1,11):
+#     print(i)
 
 ########################################################################
 # Task 5:
