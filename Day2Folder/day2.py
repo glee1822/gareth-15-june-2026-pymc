@@ -48,4 +48,6 @@ for i in range(10,0,-1):
 print("happy new year")
 
 for i in range(2):
-    
+    print("baby shark")
+    for i in range(5):
+        print
