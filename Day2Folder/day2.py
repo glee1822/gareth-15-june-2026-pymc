@@ -43,4 +43,6 @@ print("hello from day2")
 
 ########################################################################
 # Additional exercises:
-for i in range(10,0,-1)
+for i in range(10,0,-1):
+    print(i)
+print("happy new year")
