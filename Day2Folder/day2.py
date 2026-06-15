@@ -51,7 +51,8 @@ for i in range(2):
     print("baby shark")
     for i in range(5):
         print("doo")
-
+x = 0
 for i in range(3, 37,1):
     if i%3 == 0:
+        print(i)
         
