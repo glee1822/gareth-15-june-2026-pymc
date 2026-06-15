@@ -57,3 +57,6 @@ for i in range(3, 37,1):
         print(i)
         x = x+1
 print(x)
+
+for i in range(1, 100, 2):
+    print(i)
