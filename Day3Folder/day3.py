@@ -15,7 +15,7 @@ print("hello from day3")
 # Task 2:
 name = input("name")
 num_pens = int(input("num of pens"))
-print(name + " bought " + num_pens )
+print(name + " bought " + num_pens)
 
 
 
