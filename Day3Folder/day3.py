@@ -4,7 +4,10 @@ print("hello from day3")
 
 ########################################################################
 # Task 1:
-
+title = "supreme overlord"
+name = "gareth"
+command = "die"
+print(title + " " + name + " commands you to " + command)
 
 
 
