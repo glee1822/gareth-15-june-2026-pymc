@@ -31,7 +31,7 @@ avgnum = totalnum / len(numbers)
 print("the average of the numbers is " + str(avgnum))
 
 for i in range(len(numbers)):
-    
+    arrangednumbers.append(lownum)
     if numbers[i] > lownum:
         seqnum 
 
