@@ -94,7 +94,7 @@ print("hello from day3")
 ########################################################################
 # Additional exercises:
 password = input("what is the correct password")
-
+tries = 3
 for i in range(3):
     ur_pass = input("wat is ur password")
     if ur_pass == password:
