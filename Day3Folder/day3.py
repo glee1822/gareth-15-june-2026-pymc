@@ -114,4 +114,5 @@ for i in range(7):
         print("correct")
         break
     elif answer > number:
-        print("")
+        print("ur answer is too big")
+        
