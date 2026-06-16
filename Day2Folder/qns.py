@@ -32,7 +32,8 @@ print("the average of the numbers is " + str(avgnum))
 arrangednumbers.append(lownum)
 
 for i in range(len(numbers)):
-    if numbers[i] == arrangednumbers[i] + 1:
-        arrangednumbers.append(numbers[i])
+    for i in range(len(arrangednumbers)):
+        if numbers[i] == arrangednumbers[i] + 1:
+            arrangednumbers.append(numbers[i])
 print(arrangednumbers)
 
