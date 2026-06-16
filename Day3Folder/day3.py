@@ -64,6 +64,8 @@ password = input("what is the password")
 answer = input("what is the password")
 if answer == password:
     print("correct")
+else:
+    print("wrong")
 ########################################################################
 # Task 7:
 
