@@ -32,12 +32,11 @@ print("hello from day3")
 ########################################################################
 # Task 4:
 total_type_items = int(input("how many types of items in total are you buying"))
-
+total_cost_of_all = 0
 for i in range(total_type_items):
     current_item = "nothing"
     price_current = 0
     amount_of_items = 0
-    total_cost
     current_item = input("what is the current item you are buying")
     price_current = int(input("what is the price of one of " + current_item))
     amount_of_items = int(input("how many of " + price_current + "do you want to buy"))
