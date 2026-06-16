@@ -81,7 +81,7 @@ import random
 score=0
 for i in range(10):
     answer = int(input("what is " + str(num1) + " + " + str(num2) +" ?"))
-    answer = in
+    answer = int(input(f"W"))
     if answer == num1 + num2:
         print("correct")
         score = score + 1
