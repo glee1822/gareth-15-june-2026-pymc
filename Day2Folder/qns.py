@@ -6,7 +6,7 @@ numbers = []
 highnum = 0
 lownum = 100
 for i in range(100):
-    x = random.randint(1,100)
+    x = random.randint(1,1000)
     numbers.append(x)
 
 for i in range (len(numbers)):
