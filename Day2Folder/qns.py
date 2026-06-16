@@ -9,7 +9,7 @@ for i in range(100):
     numbers.append(x)
 for i in range (len(numbers)):
     print(numbers[i])
-    if num > numbers[i]:
+    if numbers[i]:> 
         num = numbers[i]
 print(num)
         
