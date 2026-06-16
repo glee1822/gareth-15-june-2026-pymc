@@ -80,8 +80,10 @@ import random
 
 score=0
 for i in range(10):
-    answer = int(input("what is " + str(num1) + " + " + str(num2) +" ?"))
-    answer = int(input(f"what is {num1} + {num2} ?"))
+    num1 = random.randint(1,10)
+    num2 = random.randint(1,10)
+    answer = int(input(f"what is "str(num1) + " + " + str(num2) +" ?"))
+    # answer = int(input(f"what is {num1} + {num2} ?"))
     if answer == num1 + num2:
         print("correct")
         score = score + 1
