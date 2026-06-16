@@ -4,7 +4,7 @@
 import random
 numbers = []
 highnum = 0
-lownum = 0
+lownum = 100
 for i in range(100):
     x = random.randint(1,100)
     numbers.append(x)
