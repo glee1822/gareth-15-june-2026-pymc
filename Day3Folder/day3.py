@@ -62,6 +62,8 @@ print("hello from day3")
 # Task 6:
 password = input("what is the password")
 answer = input("what is the password")
+if answer == password:
+    print("correct")
 ########################################################################
 # Task 7:
 
