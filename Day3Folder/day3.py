@@ -101,4 +101,4 @@ for i in range(3):
         print("correct")
         break
     else:
-        print("wrong")
+        print(f"wrong, u have {tries} more tries")
