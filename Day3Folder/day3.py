@@ -77,8 +77,7 @@ print("hello from day3")
 ########################################################################
 # Task 8:
 import random
-num1 = random.randint(1,10)
-num2 = random.randint(1,10)
+
 score=0
 for i in range(10):
     answer = int(input("what is " + str(num1) + " + " + str(num2) +" ?"))
