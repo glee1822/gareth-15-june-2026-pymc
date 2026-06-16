@@ -4,6 +4,7 @@
 import random
 numbers = []
 highnum = 0
+lownum
 for i in range(100):
     x = random.randint(1,100)
     numbers.append(x)
@@ -16,7 +17,7 @@ print("the highest number is " + str(highnum))
 
 for i in range (len(numbers)):
     print(numbers[i])
-    if numbers[i] < num:
+    if numbers[i] < lownum:
         lownum = numbers[i]
 print("the highest number is " + str(lownum))
         
