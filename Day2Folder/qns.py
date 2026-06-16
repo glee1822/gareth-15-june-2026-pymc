@@ -11,5 +11,6 @@ for i in range (len(numbers)):
     print(numbers[i])
     if num > numbers[i]:
         num = numbers[i]
+print(num)
         
 
