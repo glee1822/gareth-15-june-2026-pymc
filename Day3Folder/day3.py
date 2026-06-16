@@ -112,3 +112,6 @@ for i in range(7):
     answer = int(input("what is your guess"))
     if answer == number:
         print("correct")
+        break
+    elif answer > number:
+        
