@@ -36,7 +36,7 @@ current_item = "nothing"
 price_current = 0
 for i in range(total_type_items):
     current_item = input("what is the current item you are buying")
-    price_current = int(input("what is the rice of"))
+    price_current = int(input("what is the price of one of " + current))
     
 
 
