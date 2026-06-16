@@ -104,4 +104,4 @@ for i in range(tries):
         tries -= 1
         print(f"wrong, u have {tries} more tries")
 if tries == 0:
-    print("")
+    print("u are out of tries, system locked")
