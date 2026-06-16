@@ -85,7 +85,9 @@ for i in range(10):
     if answer == num1 + num2:
         print("correct")
         score = score + 1
-
+    else:
+        print("wrong")
+print("ur score is")
 
 ########################################################################
 # Additional exercises:
