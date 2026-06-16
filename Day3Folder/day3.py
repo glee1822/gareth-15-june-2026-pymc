@@ -107,4 +107,6 @@ print("hello from day3")
 #     print("u are out of tries, system locked")
 
 import random
-number = 
+number = random.randint(1,100)
+for i in range(7):
+    answer = int(input)
