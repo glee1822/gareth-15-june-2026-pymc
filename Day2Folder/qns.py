@@ -6,3 +6,5 @@ numbers = []
 for i in range(100):
     x = random.randint(1,1000)
     numbers.append(x)
+for i in range (len(numbers)):
+    if numbers[i] > numbers[i-1]:
