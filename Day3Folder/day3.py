@@ -120,5 +120,6 @@ for i in range(tries):
     elif answer < number:
         print("ur answer is too small")
         tries -= 1
+        print()
 if tries == 0:
     print(f"u lose the answer was {number}")
