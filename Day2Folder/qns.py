@@ -23,5 +23,5 @@ print("the lowest number is " + str(lownum))
         
 for i in range (len(numbers)):
     totalnum += numbers[i]
-    
+    print("the total of the numbers")
 
