@@ -79,10 +79,12 @@ print("hello from day3")
 import random
 num1 = random.randint(1,10)
 num2 = random.randint(1,10)
+score=0
 for i in range(10):
     answer = int(input("what is " + num1 + " + " + num2 +" ?"))
     if answer == num1 + num2:
-        
+        say("correct")
+
 
 
 ########################################################################
