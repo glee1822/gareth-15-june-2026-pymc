@@ -16,7 +16,6 @@ for i in range (len(numbers)):
 print("the highest number is " + str(highnum))
 
 for i in range (len(numbers)):
-    print(numbers[i])
     if numbers[i] < lownum:
         lownum = numbers[i]
 print("the lowest number is " + str(lownum))
