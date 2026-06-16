@@ -33,6 +33,6 @@ arrangednumbers.append(lownum)
 
 for i in range(len(numbers)):
     if numbers[i] == arrangednumbers[i] + 1:
-        append
+        arrangednumbers.append(numbers)
 
 
