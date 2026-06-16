@@ -32,7 +32,8 @@ print("hello from day3")
 ########################################################################
 # Task 4:
 total_type_items = int(input("how many types of items in total are you buying"))
-
+for i in range(total_type_items):
+    current
 
 
 
