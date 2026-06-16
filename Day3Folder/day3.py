@@ -61,8 +61,7 @@ print("hello from day3")
 ########################################################################
 # Task 6:
 password = input("what is the password")
-
-
+answer = input("what is the password")
 ########################################################################
 # Task 7:
 
