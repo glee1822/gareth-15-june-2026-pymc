@@ -98,4 +98,7 @@ password = input("what is the correct password")
 for i in range(3):
     ur_pass = input("wat is ur password")
     if ur_pass == password:
-        
+        print("correct")
+        break
+    else:
+        print("wrong")
