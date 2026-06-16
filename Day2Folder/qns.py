@@ -11,6 +11,12 @@ for i in range (len(numbers)):
     print(numbers[i])
     if numbers[i] > num:
         num = numbers[i]
-print("the highest number is" + str(num))
+print("the highest number is " + str(num))
+
+for i in range (len(numbers)):
+    print(numbers[i])
+    if numbers[i] > num:
+        num = numbers[i]
+print("the highest number is " + str(num))
         
 
