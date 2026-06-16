@@ -83,9 +83,8 @@ score=0
 for i in range(10):
     answer = int(input("what is " + num1 + " + " + num2 +" ?"))
     if answer == num1 + num2:
-        say("correct")
-        score += 1
-
+        print("correct")
+        score = score + 1
 
 
 ########################################################################
