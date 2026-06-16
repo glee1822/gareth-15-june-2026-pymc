@@ -93,4 +93,5 @@ print("hello from day3")
 
 ########################################################################
 # Additional exercises:
-password = input
+password = input("what is the correct password")
+ur
