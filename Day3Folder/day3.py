@@ -81,13 +81,13 @@ num1 = random.randint(1,10)
 num2 = random.randint(1,10)
 score=0
 for i in range(10):
-    answer = int(input("what is " + num1 + " + " + num2 +" ?"))
+    answer = int(input("what is " + str(num1) + " + " + num2 +" ?"))
     if answer == num1 + num2:
         print("correct")
         score = score + 1
     else:
         print("wrong")
-print("ur score is" + str(score)
+print("ur score is" + str(score))
 
 ########################################################################
 # Additional exercises:
