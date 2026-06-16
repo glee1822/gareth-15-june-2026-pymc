@@ -60,17 +60,17 @@ print("hello from day3")
 
 ########################################################################
 # Task 6:
-password = input("what is the password")
-answer = input("what is the password")
-if answer == password:
-    print("correct")
-else:
-    print("wrong")
+# password = input("what is the password")
+# answer = input("what is the password")
+# if answer == password:
+#     print("correct")
+# else:
+#     print("wrong")
 ########################################################################
 # Task 7:
 import random
 for i in range(10):
-    x = random.randint
+    x = random.randint(1, 10)
     print(x)
 
 
