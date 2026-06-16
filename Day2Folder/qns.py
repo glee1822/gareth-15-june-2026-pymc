@@ -1,0 +1,1 @@
+# generate a list of 100 random number
