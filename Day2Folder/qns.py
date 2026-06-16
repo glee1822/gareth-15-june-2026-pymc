@@ -34,5 +34,5 @@ arrangednumbers.append(lownum)
 for i in range(len(numbers)):
     if numbers[i] == arrangednumbers[i] + 1:
         arrangednumbers.append(numbers[i])
-print
+print(arrrangednumbers)
 
