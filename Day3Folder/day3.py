@@ -21,16 +21,17 @@ print("hello from day3")
 
 ########################################################################
 # Task 3:
-x = input("num1")
-y = input("num2")
-print(x + y)
-print(x - y)
-print(x * y)
-print(x / y)
+# x = input("num1")
+# y = input("num2")
+# print(x + y)
+# print(x - y)
+# print(x * y)
+# print(x / y)
 
 
 ########################################################################
 # Task 4:
+
 
 
 
