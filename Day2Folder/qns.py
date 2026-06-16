@@ -26,6 +26,6 @@ for i in range (len(numbers)):
     totalnum += numbers[i]
 print("the total of the numbers is " + str(totalnum))
 avgnum = totalnum / len(numbers)
-print(stra(vgnum))
+print("the average of the numbers is " + str(avgnum))
 
 
