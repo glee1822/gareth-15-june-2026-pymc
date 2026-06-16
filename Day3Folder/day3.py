@@ -87,7 +87,7 @@ for i in range(10):
         score = score + 1
     else:
         print("wrong")
-print("ur score is")
+print("ur score is" + str(score)
 
 ########################################################################
 # Additional exercises:
