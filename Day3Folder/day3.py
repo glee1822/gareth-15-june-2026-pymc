@@ -34,7 +34,7 @@ print("hello from day3")
 total_type_items = int(input("how many types of items in total are you buying"))
 current_item = "nothing"
 for i in range(total_type_items):
-    current_item = input
+    current_item = input("")
     
 
 
