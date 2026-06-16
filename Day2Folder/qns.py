@@ -30,9 +30,9 @@ print("the total of the numbers is " + str(totalnum))
 avgnum = totalnum / len(numbers)
 print("the average of the numbers is " + str(avgnum))
 arrangednumbers.append(lownum)
-if numbers[1] > lownum:
+if numbers[1] == lownum + 1:
     seqnum = numbers[i]
 for i in range(len(numbers)):
-    ifseqnum
+    if seqnum 
 
 
