@@ -105,3 +105,6 @@ print("hello from day3")
 #         print(f"wrong, u have {tries} more tries")
 # if tries == 0:
 #     print("u are out of tries, system locked")
+
+import random
+number = 
