@@ -3,10 +3,13 @@
 # find the maximum, minimum, median and mean of the list.
 import random
 numbers = []
+num = 0
 for i in range(100):
     x = random.randint(1,100)
     numbers.append(x)
 for i in range (len(numbers)):
     print(numbers[i])
-    if numbers[i] > numbers[i+1]:
-        print("higher")
+    if num > numbers[i]:
+        num = numbers[i]
+        
+
