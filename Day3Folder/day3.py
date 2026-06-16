@@ -93,15 +93,15 @@ print("hello from day3")
 
 ########################################################################
 # Additional exercises:
-password = input("what is the correct password")
-tries = 3
-for i in range(tries):
-    ur_pass = input("wat is ur password")
-    if ur_pass == password:
-        print("correct")
-        break
-    else:
-        tries -= 1
-        print(f"wrong, u have {tries} more tries")
-if tries == 0:
-    print("u are out of tries, system locked")
+# password = input("what is the correct password")
+# tries = 3
+# for i in range(tries):
+#     ur_pass = input("wat is ur password")
+#     if ur_pass == password:
+#         print("correct")
+#         break
+#     else:
+#         tries -= 1
+#         print(f"wrong, u have {tries} more tries")
+# if tries == 0:
+#     print("u are out of tries, system locked")
