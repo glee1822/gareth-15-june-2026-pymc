@@ -101,5 +101,5 @@ for i in range(tries):
         print("correct")
         break
     else:
-        tries
+        tries -= 1
         print(f"wrong, u have {tries} more tries")
