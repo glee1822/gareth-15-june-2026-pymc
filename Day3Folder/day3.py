@@ -109,4 +109,4 @@ print("hello from day3")
 import random
 number = random.randint(1,100)
 for i in range(7):
-    answer = int(input)
+    answer = int(input("what is your guess"))
