@@ -43,7 +43,7 @@ for i in range(total_type_items):
     total_price_of_current = price_current * amount_of_items
     print("the total price of" + current_item + "is" + total_price_of_current)
     total_cost_of_all = total_cost_of_all + total_price_of_current
-print("the ")    
+print("the total will be" + total_cost_of_all)    
 
 
 
