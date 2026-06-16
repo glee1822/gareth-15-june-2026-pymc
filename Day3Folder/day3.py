@@ -103,3 +103,5 @@ for i in range(tries):
     else:
         tries -= 1
         print(f"wrong, u have {tries} more tries")
+if tries == 0:
+    
