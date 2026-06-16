@@ -2,6 +2,7 @@
 # not using existing function, 
 # find the maximum, minimum, median and mean of the list.
 import random
-numbers = []
+
 for i in range(100):
     numbers = []
+    numbers.append
