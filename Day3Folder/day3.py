@@ -68,14 +68,15 @@ print("hello from day3")
 #     print("wrong")
 ########################################################################
 # Task 7:
-import random
-for i in range(10):
-    x = random.randint(1, 10)
-    print(x)
+# import random
+# for i in range(10):
+#     x = random.randint(1, 10)
+#     print(x)
 
 
 ########################################################################
 # Task 8:
+
 
 
 
