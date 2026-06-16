@@ -40,7 +40,7 @@ for i in range(total_type_items):
     price_current = int(input("what is the price of one of " + current_item))
     amount_of_items = int(input("how many of " + price_current + "do you want to buy"))
     total_price_of_current = price_current * amount_of_items
-    print("")
+    print("the")
     
 
 
