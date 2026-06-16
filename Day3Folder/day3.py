@@ -121,4 +121,4 @@ for i in range(tries):
         print("ur answer is too small")
         tries -= 1
 if tries == 0:
-    print()
+    print(f"u lose the answer was {}")
