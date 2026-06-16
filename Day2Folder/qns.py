@@ -5,6 +5,7 @@ import random
 numbers = []
 highnum = 0
 lownum = 100
+totalnum = 0
 for i in range(100):
     x = random.randint(1,1000)
     numbers.append(x)
@@ -21,8 +22,6 @@ for i in range (len(numbers)):
 print("the lowest number is " + str(lownum))
         
 for i in range (len(numbers)):
-    print(numbers[i])
-    if numbers[i] > num:
-        num = numbers[i]
-print("the highest number is " + str(num))
+    totalnum += numbers[i]
+    
 
