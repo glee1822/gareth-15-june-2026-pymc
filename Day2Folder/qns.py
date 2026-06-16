@@ -4,7 +4,7 @@
 import random
 numbers = []
 for i in range(100):
-    x = random.randint(1,1000)
+    x = random.randint(1,100)
     numbers.append(x)
 for i in range (len(numbers)):
     print(numbers[i])
