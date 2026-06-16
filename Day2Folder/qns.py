@@ -8,3 +8,5 @@ for i in range(100):
     numbers.append(x)
 for i in range (len(numbers)):
     print(numbers[i])
+    if numbers[i] > numbers[i+1]:
+        print
