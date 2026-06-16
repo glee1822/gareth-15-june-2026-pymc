@@ -37,7 +37,7 @@ price_current = 0
 for i in range(total_type_items):
     current_item = input("what is the current item you are buying")
     price_current = int(input("what is the price of one of " + current_item))
-    am
+    amount_ofitems
     
 
 
