@@ -117,9 +117,10 @@ for i in range(tries):
     elif answer > number:
         print("ur answer is too big")
         tries -= 1
+        print(f"u have {tries} tries left")
     elif answer < number:
         print("ur answer is too small")
         tries -= 1
-        print(f"u have {tries}")
+        print(f"u have {tries} tries left")
 if tries == 0:
     print(f"u lose the answer was {number}")
