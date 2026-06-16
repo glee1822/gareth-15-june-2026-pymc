@@ -4,5 +4,5 @@
 import random
 numbers = []
 for i in range(100):
-    x = 
-    numbers.append()
+    x = random.randint(1,100)
+    numbers.append(x)
