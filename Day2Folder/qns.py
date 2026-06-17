@@ -69,7 +69,7 @@ else:
 
 
 # how would you check that your answer or approach is correct ? 
-# you could do testing with a smaller set of numbers
+# one of the ways you could do testing with a smaller set of numbers
 # for example, you can do testing with a list of 5 elements and 4 elements to see if it works out correctly 
 
 
