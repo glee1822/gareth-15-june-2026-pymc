@@ -50,6 +50,7 @@ print(f"the rearranged list of numbers in order is {arrangednumbers}")
 # to access the element in the list using index number, it will be 
 # mylist[2] will give you 3.
 
+# this will give the position, but is it the index number?
 halfway_arrangednumbers = len(arrangednumbers) // 2 # this one will give you float 
 # to prevent having float there are two ways.
 #1. you can use math.floor()
