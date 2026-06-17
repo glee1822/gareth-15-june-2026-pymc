@@ -40,11 +40,18 @@ for a in range(100):
 print(arrangednumbers)
 # for a more general approach you need to consider if the arranged number is odd or even
 
-
+# .index(element) the element inside is the element in the list
+# this will tell you the index number of the element in the list.
+# for example my_list = [5,4,3,2,1] 
+# my_list.index(4) will give you 1
+# to access the element in the list using index number, it will be 
+# mylist[2] will give you 3.
 
 halfway_arrangednumbers = len(arrangednumbers) / 2
 if halfway_arrangednumbers%2  != 0:
-    median = arrangednumbers.index(halfway_arrangednumbers)
+    median = arrangednumbers[halfway_arrangednumbers]
+    print(median)
+
 
 
 
