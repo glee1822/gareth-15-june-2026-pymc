@@ -68,14 +68,14 @@ halfway_index = halfway_numbers - 1
 # 5//2 will give you 2. Basically it give you the quotient
 # 5%2 give the remainders
 if halfway_numbers%2  != 0:
-    median = arrangednumbers[halfway_index]
+    median = numbers[halfway_index]
     print(f"the median of the numbers is {median}")
 else:
     # it should be for even number 
     # after you divide 2
     # you access the list[number//2] and acces the list[number//2 + 1]
     # add them together and get the average
-    median = (arrangednumbers[halfway_index] + arrangednumbers[halfway_index + 1]) / 2
+    median = (numbers[halfway_index] + numbers[halfway_index + 1]) / 2
     print(f"the median of the numbers is {median}")
 
 
