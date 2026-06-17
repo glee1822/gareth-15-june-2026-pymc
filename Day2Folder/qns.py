@@ -53,10 +53,12 @@ halfway_arrangednumbers = len(arrangednumbers) // 2 # this one will give you flo
 #2. you can use // 
 # both are the same but 2 no need to input
 # 5//2 will give you 2. Basically it give you the quotient
+# 5%2 give the remainders
 if halfway_arrangednumbers%2  != 0:
     median = arrangednumbers[halfway_arrangednumbers]
     print(median)
 else:
+    # it 
     median = arrangednumbers[halfway_arrangednumbers + 1] / 2
     print(median)
 
