@@ -13,9 +13,9 @@ median = 0
 for i in range(100):
     x = random.randint(1,1000)
     numbers.append(x)
-
+print
 for i in range(len(numbers)):
-    print(numbers[i])
+    
     if numbers[i] > highnum:
         highnum = numbers[i]
 print("the highest number is " + str(highnum))
