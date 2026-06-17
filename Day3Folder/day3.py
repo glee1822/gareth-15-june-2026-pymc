@@ -106,21 +106,21 @@ print("hello from day3")
 # if tries == 0:
 #     print("u are out of tries, system locked")
 
-import random
-number = random.randint(1,100)
-tries = 7
-for i in range(tries):
-    answer = int(input("what is your guess"))
-    if answer == number:
-        print("correct")
-        break
-    elif answer > number:
-        print("ur answer is too big")
-        tries -= 1
-        print(f"u have {tries} tries left")
-    elif answer < number:
-        print("ur answer is too small")
-        tries -= 1
-        print(f"u have {tries} tries left")
-if tries == 0:
-    print(f"u lose the answer was {number}")
+# import random
+# number = random.randint(1,100)
+# tries = 7
+# for i in range(tries):
+#     answer = int(input("what is your guess"))
+#     if answer == number:
+#         print("correct")
+#         break
+#     elif answer > number:
+#         print("ur answer is too big")
+#         tries -= 1
+#         print(f"u have {tries} tries left")
+#     elif answer < number:
+#         print("ur answer is too small")
+#         tries -= 1
+#         print(f"u have {tries} tries left")
+# if tries == 0:
+#     print(f"u lose the answer was {number}")
