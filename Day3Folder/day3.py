@@ -130,13 +130,14 @@ end = 100
 print(f"the number is{number}")
 for i in range(tries):
     comp_guess = random.randint(start, end)
+    print(comp_guess)
     if comp_guess > number:
         start = comp_guess
-        print(comp_guess)
+        
         tries -= 1
     elif comp_guess < number:
         end = comp_guess
-        print(comp_guess)
+        
         tries -= 1
     else:
         print("the computer got it right")
