@@ -106,9 +106,9 @@ print("hello from day3")
 # if tries == 0:
 #     print("u are out of tries, system locked")
 
-import random
-number = random.randint(1,100)
-tries = 7
+# import random
+# number = random.randint(1,100)
+# tries = 7
 # for i in range(tries):
 #     answer = int(input("what is your guess"))
 #     if answer == number:
@@ -124,23 +124,23 @@ tries = 7
 #         print(f"u have {tries} tries left")
 # if tries == 0:
 #     print(f"u lose the answer was {number}")
- #solver for above
-start = 1
-end = 100
-print(f"the number is{number}")
-for i in range(tries):
-    comp_guess = random.randint(start + 1, end - 1)
-    print(comp_guess)
-    if comp_guess > number:
-        end = comp_guess
+#  solver for above
+# start = 1
+# end = 100
+# print(f"the number is{number}")
+# for i in range(tries):
+#     comp_guess = random.randint(start + 1, end - 1)
+#     print(comp_guess)
+#     if comp_guess > number:
+#         end = comp_guess
         
-        tries -= 1
-    elif comp_guess < number:
-        start = comp_guess
+#         tries -= 1
+#     elif comp_guess < number:
+#         start = comp_guess
         
-        tries -= 1
-    else:
-        print("the computer got it right")
-        break
-if tries == 0:
-    print("the computer dum")
+#         tries -= 1
+#     else:
+#         print("the computer got it right")
+#         break
+# if tries == 0:
+#     print("the computer dum")
