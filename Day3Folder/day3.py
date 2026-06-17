@@ -108,7 +108,7 @@ print("hello from day3")
 
 import random
 number = random.randint(1,100)
-tries = 20
+tries = 7
 # for i in range(tries):
 #     answer = int(input("what is your guess"))
 #     if answer == number:
