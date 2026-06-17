@@ -34,6 +34,6 @@ arrangednumbers.append(lownum)
 for i in range(len(numbers)):
         if numbers[i] < lownum:
             lownum = numbers[i]
-        del numbers[lownum]
-        
+        numbers.remove[lownum]
+
 
