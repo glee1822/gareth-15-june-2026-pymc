@@ -11,9 +11,9 @@ seqnum = 0
 arrangednumbers = []
 median = 0
 length = int(input("how many items"))
-range_of_list = int(input("what is the range"))
+range_of_list = int(input("what is the range from 1-"))
 for i in range(length):
-    x = random.randint(1,1000)
+    x = random.randint(1,range_of_list)
     numbers.append(x)
 print(numbers)
 for i in range(len(numbers)):
