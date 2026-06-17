@@ -10,10 +10,9 @@ for i in range(10):
 for i in range(len(numbers)):
     x = numbers[i]
     if x in numbers == True:
-       while x in numbers:
+        while x in numbers:
            numbers.remove(x)
-           if x not in numbers:
-               break
+        numbers.append(x)
 
 print(numbers)
 
