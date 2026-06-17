@@ -51,7 +51,8 @@ halfway_arrangednumbers = len(arrangednumbers) / 2 # this one will give you floa
 # to prevent having float there are two ways.
 #1. you can use math.floor()
 #2. you can use // 
-
+# both are the same but 2 no need to input
+# 
 if halfway_arrangednumbers%2  != 0:
     median = arrangednumbers[halfway_arrangednumbers]
     print(median)
