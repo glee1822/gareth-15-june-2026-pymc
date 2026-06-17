@@ -139,4 +139,4 @@ for i in range(tries):
         print("the computer got it right")
         break
 if tries == 0:
-    
+    print("the computer dum")
