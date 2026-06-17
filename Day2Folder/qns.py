@@ -36,6 +36,7 @@ for a in range(100):
                 lownum = numbers[i]
     numbers.remove(lownum)
     arrangednumbers.append(lownum)
+    lownum = 1000
 print(arrangednumbers)
 
 
