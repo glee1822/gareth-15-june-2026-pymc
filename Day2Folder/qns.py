@@ -41,6 +41,9 @@ for a in range(length):
     arrangednumbers.append(lownum)
     lownum = range_of_list 
 print(f"the rearranged list of numbers in order is {arrangednumbers}")
+
+
+
 # for a more general approach you need to consider if the arranged number is odd or even
 
 # .index(element) the element inside is the element in the list
