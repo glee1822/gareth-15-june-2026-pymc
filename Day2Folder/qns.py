@@ -53,6 +53,7 @@ if halfway_arrangednumbers%2  != 0:
     print(median)
 else:
     median = arrangednumbers[halfway_arrangednumbers + 1]
+    print(median)
 
 
 
