@@ -14,5 +14,6 @@ for i in range(len(numbers)):
            numbers.remove(x)
            if x not in numbers:
                break
-    
+    counter += 1
+print(numbers)
 
