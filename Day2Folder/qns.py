@@ -41,6 +41,6 @@ print(arrangednumbers)
 
 halfway_arrangednumbers = len(arrangednumbers) / 2
 
-median = arrangednumbers[halfway_arrangednumbers] + arrangednumbers[halfway_arrangednumbers]
+median = arrangednumbers[halfway_arrangednumbers] + arrangednumbers[halfway_arrangednumbers] + 1
 
 
