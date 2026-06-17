@@ -52,7 +52,7 @@ print(f"the rearranged list of numbers in order is {arrangednumbers}")
 
 # this will give the position, but is it the index number?
 halfway_arrangednumbers = len(arrangednumbers) // 2 # this one will give you float 
-halfway_index = halfway_arrangednumbers - 1
+halfway_index = halfway_arrangednumbers + 1
 # to prevent having float there are two ways.
 #1. you can use math.floor()
 #2. you can use // 
