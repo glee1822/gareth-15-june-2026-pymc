@@ -129,7 +129,7 @@ start = 1
 end = 100
 print(f"the number is{number}")
 for i in range(tries):
-    comp_guess = random.randint(start, end)
+    comp_guess = random.randint(start, end - 1)
     print(comp_guess)
     if comp_guess > number:
         end = comp_guess
