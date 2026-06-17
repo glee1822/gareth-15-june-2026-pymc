@@ -44,7 +44,7 @@ print(arrangednumbers)
 
 halfway_arrangednumbers = len(arrangednumbers) / 2
 if halfway_arrangednumbers%2  != 0:
-    median = arrangednumbers
+    median = arrangednumbers.index()
 
 
 
