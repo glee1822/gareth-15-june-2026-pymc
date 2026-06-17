@@ -69,7 +69,7 @@ else:
 
 
 # how would you check that your answer or approach is correct ? 
-# 70
+# you could do testing wi
 
 
 
