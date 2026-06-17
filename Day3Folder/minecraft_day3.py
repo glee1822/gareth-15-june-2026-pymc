@@ -2,3 +2,6 @@
 # THIS IS SO THAT YOU HAVE A RECORD OF YOUR CODE FROM MINECRAFT CODE BUILDER
 
 
+for i in range(3):
+    for i in range(31):
+        
