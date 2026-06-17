@@ -45,7 +45,7 @@ print(f"the rearranged list of numbers in order is {arrangednumbers}")
 for i in range(len(numbers)):
     for a in range(0,len(numbers) - i - 1):
         if numbers[a] > numbers[a + 1]:
-            
+            numbers[a], numbers[a + 1]
 
 
 # for a more general approach you need to consider if the arranged number is odd or even
