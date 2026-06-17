@@ -38,7 +38,7 @@ for a in range(100):
     arrangednumbers.append(lownum)
     lownum = 1000
 print(arrangednumbers)
-# 
+# for a more general approach you need to consider if the arranged number is odd or even
 halfway_arrangednumbers = len(arrangednumbers) / 2
 halfway_arrangednumbers_plus1 = halfway_arrangednumbers + 1
 median = arrangednumbers.index(halfway_arrangednumbers) + halfway_arrangednumbers_plus1
