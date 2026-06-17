@@ -131,11 +131,11 @@ print(number)
 for i in range(tries):
     comp_guess = random.randint(start, end)
     if comp_guess > number:
-        start = comp_guess
+        end = comp_guess
         print(comp_guess)
         tries -= 1
     elif comp_guess < number:
-        end = comp_guess
+        start = comp_guess
         print(comp_guess)
         tries -= 1
     else:
