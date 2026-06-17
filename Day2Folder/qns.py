@@ -39,7 +39,7 @@ for a in range(length):
                 lownum = numbers[i]
     numbers.remove(lownum)
     arrangednumbers.append(lownum)
-    lownum = range_of_list
+    lownum = range_of_list 
 print(f"the rearranged list of numbers in order is {arrangednumbers}")
 # for a more general approach you need to consider if the arranged number is odd or even
 
@@ -57,7 +57,7 @@ halfway_arrangednumbers = len(arrangednumbers) // 2 # this one will give you flo
 # both are the same but 2 no need to input
 # 5//2 will give you 2. Basically it give you the quotient
 # 5%2 give the remainders
-if halfway_arrangednumbers%2  != 0:
+if len(halfway_arrangednumbers)%2  != 0:
     median = arrangednumbers[halfway_arrangednumbers]
     print(f"the median of the numbers is {median}")
 else:
