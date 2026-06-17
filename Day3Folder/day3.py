@@ -125,6 +125,9 @@ for i in range(tries):
 if tries == 0:
     print(f"u lose the answer was {number}")
  #solver for above
- 
+start = 1
+end = 100
 for i in range(tries):
-    comp_guess = random.randint
+    comp_guess = random.randint(start, end)
+    if comp_guess > number:
+        start = comp_
