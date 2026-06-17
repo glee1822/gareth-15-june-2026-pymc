@@ -67,7 +67,7 @@ else:
     # after you divide 2
     # you access the list[number//2] and acces the list[number//2 + 1]
     # add them together and get the average
-    median = (arrangednumbers[halfway_arrangednumbers] + arrangednumbers[halfway_arrangednumbers + 1]) / 2
+    median = (arrangednumbers[halfway_index] + arrangednumbers[halfway_index + 1]) / 2
     print(f"the median of the numbers is {median}")
 
 
