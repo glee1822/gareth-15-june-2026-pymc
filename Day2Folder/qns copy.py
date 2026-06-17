@@ -59,15 +59,15 @@ print(numbers)
 # mylist[2] will give you 3.
 
 # this will give the position, but is it the index number?
-halfway_arrangednumbers = len(numbers) // 2 # this one will give you float 
-halfway_index = halfway_arrangednumbers - 1
+halfway_numbers = len(numbers) // 2 # this one will give you float 
+halfway_index = halfway_numbers - 1
 # to prevent having float there are two ways.
 #1. you can use math.floor()
 #2. you can use // 
 # both are the same but 2 no need to input
 # 5//2 will give you 2. Basically it give you the quotient
 # 5%2 give the remainders
-if halfway_arrangednumbers%2  != 0:
+if halfway_numbers%2  != 0:
     median = arrangednumbers[halfway_index]
     print(f"the median of the numbers is {median}")
 else:
