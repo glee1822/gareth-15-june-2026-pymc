@@ -38,7 +38,7 @@ for a in range(100):
     numbers.remove(lownum)
     arrangednumbers.append(lownum)
     lownum = 1000
-print(arrangednumbers)
+print(f"the rearranged list of numbers in order isarrangednumbers")
 # for a more general approach you need to consider if the arranged number is odd or even
 
 # .index(element) the element inside is the element in the list
