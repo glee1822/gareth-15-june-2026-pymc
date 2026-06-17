@@ -127,7 +127,7 @@ tries = 7
  #solver for above
 start = 1
 end = 100
-print(number)
+print(f"the number is{number})
 for i in range(tries):
     comp_guess = random.randint(start, end)
     if comp_guess > number:
