@@ -9,9 +9,8 @@ for i in range(10):
 
 
 for i in range(len(numbers)):
-    x = numbers[i]
-    if numbers[1] in numbers == True:
-        while numbers[x] in numbers:
+    if numbers[i] in numbers == True:
+        while numbers[i] in numbers:
            numbers.remove(x)
 
 
