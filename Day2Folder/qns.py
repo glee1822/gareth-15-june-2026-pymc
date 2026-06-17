@@ -39,6 +39,6 @@ for a in range(100):
     lownum = 1000
 print(arrangednumbers)
 
-half
+halfway_arrangednumbers = len(arrangednumbers)
 
 
