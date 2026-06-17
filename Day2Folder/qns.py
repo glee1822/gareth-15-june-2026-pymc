@@ -11,7 +11,7 @@ seqnum = 0
 arrangednumbers = []
 median = 0
 for i in range(5):
-    x = random.randint(1,5)
+    x = random.randint(1,1000)
     numbers.append(x)
 print(numbers)
 for i in range(len(numbers)):
@@ -37,7 +37,7 @@ for a in range(100):
                 lownum = numbers[i]
     numbers.remove(lownum)
     arrangednumbers.append(lownum)
-    lownum = 5
+    lownum = 1000
 print(f"the rearranged list of numbers in order is {arrangednumbers}")
 # for a more general approach you need to consider if the arranged number is odd or even
 
