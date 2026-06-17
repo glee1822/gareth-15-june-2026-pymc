@@ -8,3 +8,4 @@ for i in range(3):
         place(DOWN)
         front(1)
     turn()
+    
