@@ -51,6 +51,8 @@ halfway_arrangednumbers = len(arrangednumbers) / 2
 if halfway_arrangednumbers%2  != 0:
     median = arrangednumbers[halfway_arrangednumbers]
     print(median)
+else:
+    median = arrangednumbers
 
 
 
