@@ -12,4 +12,6 @@ for i in range(len(numbers)):
     if x in numbers == True:
        while x in numbers:
            numbers.remove(x)
+           if x not in numbers:
+               break
 
