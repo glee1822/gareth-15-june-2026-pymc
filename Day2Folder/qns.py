@@ -68,7 +68,8 @@ else:
 
 
 
-# how would you check that your 
+# how would you check that your answer or approach is correct ? 
+# 70
 
 
 
