@@ -10,8 +10,8 @@ avgnum = 0
 seqnum = 0
 arrangednumbers = []
 median = 0
-for i in range(100):
-    x = random.randint(1,1000)
+for i in range(5):
+    x = random.randint(1,5)
     numbers.append(x)
 print(numbers)
 for i in range(len(numbers)):
