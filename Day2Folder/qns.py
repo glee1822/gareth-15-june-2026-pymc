@@ -41,7 +41,7 @@ print(arrangednumbers)
 
 halfway_arrangednumbers = len(arrangednumbers) / 2
 halfway_arrangednumbers_plus1 = halfway_arrangednumbers + 1
-median = arrangednumbers[halfway_arrangednumbers] + halfway_arrangednumbers_plus1
+median = arrangednumbers.index(halfway_arrangednumbers) + halfway_arrangednumbers_plus1
 print(median)
 
 
