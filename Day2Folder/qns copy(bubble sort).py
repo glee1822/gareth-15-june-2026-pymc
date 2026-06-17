@@ -45,7 +45,7 @@ print("the average of the numbers is " + str(avgnum))
 for i in range(len(numbers)):
     for a in range(0,len(numbers) - i - 1):
         if numbers[a] > numbers[a + 1]:
-            numbers[a], numbers[a + 1] = numbers[a + 1], numbers[a] # this is for python if you cannot do this, what you do ]]
+            numbers[a], numbers[a + 1] = numbers[a + 1], numbers[a] # this is for python if you cannot do this, what would you do
 print(numbers)
 
 
