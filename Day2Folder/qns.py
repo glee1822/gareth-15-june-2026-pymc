@@ -40,7 +40,7 @@ for a in range(100):
 print(arrangednumbers)
 
 halfway_arrangednumbers = len(arrangednumbers) / 2
-halfway_arrangednumbers_plus1 = arrangednumbers.index(halfway_arrangednumbers + 1)
+halfway_arrangednumbers_plus1 = arrangednumbers.index(halfway_arrangednumbers) + 1
 median = arrangednumbers[halfway_arrangednumbers] + halfway_arrangednumbers_plus1
 print(median)
 
