@@ -33,20 +33,20 @@ print("the total of the numbers is " + str(totalnum))
 avgnum = totalnum / len(numbers)
 print("the average of the numbers is " + str(avgnum))
 
-for a in range(length):
-    for i in range(len(numbers)):
-            if numbers[i] < lownum:
-                lownum = numbers[i]
-    numbers.remove(lownum)
-    arrangednumbers.append(lownum)
-    lownum = range_of_list 
-print(f"the rearranged list of numbers in order is {arrangednumbers}")
+# for a in range(length):
+#     for i in range(len(numbers)):
+#             if numbers[i] < lownum:
+#                 lownum = numbers[i]
+#     numbers.remove(lownum)
+#     arrangednumbers.append(lownum)
+#     lownum = range_of_list 
+# print(f"the rearranged list of numbers in order is {arrangednumbers}")
 
 for i in range(len(numbers)):
     for a in range(0,len(numbers) - i - 1):
         if numbers[a] > numbers[a + 1]:
             numbers[a], numbers[a + 1] = numbers[a + 1], numbers[a]
-
+print(numbers)
 
 
 # for a more general approach you need to consider if the arranged number is odd or even
