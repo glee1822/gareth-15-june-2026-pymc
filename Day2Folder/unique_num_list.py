@@ -4,8 +4,8 @@ import random
 numbers = []
 
 x = 0
-for i in range(100):
-    numbers.append(random.randint(1,150))
+for i in range(10):
+    numbers.append(random.randint(1,15))
 
 for i in range(len(numbers)):
     x = numbers[i]
