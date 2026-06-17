@@ -75,7 +75,7 @@ else:
 # for example, you can do testing with a list of 5 elements and 4 elements to see if it works out correctly 
 
 # seems to have some issue
-
+# the rearranged list of numbers in order is [1, 1, 2, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 8, 8, 9, 9, 10, 10]
 
 
 
