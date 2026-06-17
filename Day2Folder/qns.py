@@ -76,7 +76,7 @@ else:
 
 # seems to have some issue
 # the rearranged list of numbers in order is [1, 1, 2, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 8, 8, 9, 9, 10, 10]
-# 10th is 5, 11th is 5 => median would be 5
+# 10th (index 9) is 5, 11th (index 10) is 5 => median would be 5
 
 
 
