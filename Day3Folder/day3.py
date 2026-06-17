@@ -134,4 +134,5 @@ for i in range(tries):
     elif comp_guess < number:
         end = comp_guess
     else:
-        
+        print("the computer got it right")
+        break
