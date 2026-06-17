@@ -130,4 +130,5 @@ end = 100
 for i in range(tries):
     comp_guess = random.randint(start, end)
     if comp_guess > number:
-        start = comp_
+        start = comp_guess
+    elif comp_guess < number
