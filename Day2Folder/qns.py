@@ -59,7 +59,8 @@ if halfway_arrangednumbers%2  != 0:
     print(median)
 else:
     # it should be for even number 
-    # after you divide 
+    # after you divide 2
+    # you access the 
     median = arrangednumbers[halfway_arrangednumbers + 1] / 2
     print(median)
 
