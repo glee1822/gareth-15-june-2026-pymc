@@ -37,7 +37,7 @@ for a in range(100):
                 lownum = numbers[i]
     numbers.remove(lownum)
     arrangednumbers.append(lownum)
-    lownum = 1000
+    lownum = 5
 print(f"the rearranged list of numbers in order is {arrangednumbers}")
 # for a more general approach you need to consider if the arranged number is odd or even
 
