@@ -59,7 +59,7 @@ halfway_arrangednumbers = len(arrangednumbers) // 2 # this one will give you flo
 # 5//2 will give you 2. Basically it give you the quotient
 # 5%2 give the remainders
 if halfway_arrangednumbers%2  != 0:
-    median = arrangednumbers[halfway_arrangednumbers]
+    median = arrangednumbers[halfway_arrangednumbers - 1]
     print(f"the median of the numbers is {median}")
 else:
     # it should be for even number 
