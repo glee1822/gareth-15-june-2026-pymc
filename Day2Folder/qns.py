@@ -39,5 +39,6 @@ for a in range(100):
     lownum = 1000
 print(arrangednumbers)
 
+half
 
 
