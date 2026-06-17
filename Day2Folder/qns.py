@@ -30,7 +30,7 @@ print("the total of the numbers is " + str(totalnum))
 avgnum = totalnum / len(numbers)
 print("the average of the numbers is " + str(avgnum))
 
-for i in range(100):
+for a in range(100):
     for i in range(len(numbers)):
             if numbers[i] < lownum:
                 lownum = numbers[i]
