@@ -138,3 +138,5 @@ for i in range(tries):
     else:
         print("the computer got it right")
         break
+if tries == 0:
+    
