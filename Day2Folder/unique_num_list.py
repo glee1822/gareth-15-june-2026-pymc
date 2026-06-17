@@ -5,7 +5,7 @@ numbers = []
 
 x = 0
 for i in range(10):
-    numbers.append(random.randint(1,2))
+    numbers.append(random.randint(1,15))
 
 
 for i in range(len(numbers)):
@@ -13,7 +13,7 @@ for i in range(len(numbers)):
     if x in numbers == True:
         while x in numbers:
            numbers.remove(x)
-        numbers.append(x)
+
 
 print(numbers)
 
